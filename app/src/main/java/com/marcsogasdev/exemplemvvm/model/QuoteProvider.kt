@@ -47,7 +47,7 @@ class QuoteProvider {
                 quote = "Software and cathedrals are much the same — first we build them, then we pray.",
                 author = "Anonymous"
             ),
-            QuoteModel(quote = "¿A que esperas?, contratame.", author = "Marc Sogas 😊")
+            QuoteModel(quote = "¿A qué esperas?, contrátame.", author = "Marc Sogas 😊")
         )
     }
 }

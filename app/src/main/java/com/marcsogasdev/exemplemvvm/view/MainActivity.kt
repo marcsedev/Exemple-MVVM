@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     //connect view model to activity
         quoteViewModel.quoteModel.observe(this, Observer { currentQuote ->
             binding.tvQuote.text = currentQuote.quote
-            binding.tvAuthor.text = currentQuote.quote
+            binding.tvAuthor.text = currentQuote.author
 
         })
         //click for the screen
