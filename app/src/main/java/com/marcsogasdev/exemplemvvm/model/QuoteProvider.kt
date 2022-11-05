@@ -3,7 +3,7 @@ package com.marcsogasdev.exemplemvvm.model
 //this provider emulate Retrofit or Room
 
 class QuoteProvider {
-    private companion object {
+    companion object {
 
         fun random():QuoteModel{
             //random number 0 to 10
