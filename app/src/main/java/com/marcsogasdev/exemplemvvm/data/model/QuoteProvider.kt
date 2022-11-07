@@ -1,17 +1,18 @@
-package com.marcsogasdev.exemplemvvm.model
+package com.marcsogasdev.exemplemvvm.data.model
 
 //this provider emulate Retrofit or Room
 
 class QuoteProvider {
     companion object {
+        var quotes:List<QuoteModel> = emptyList()
 
-        fun random():QuoteModel{
+    /*    fun random(): QuoteModel {
             //random number 0 to 10
             val position = (0..10).random()
-            return quote[position]
+            return quotes[position]
         }
 
-        //list of quote. The user change the quote when push the screen
+       //list of quote. The user change the quote when push the screen
         val quote = listOf<QuoteModel>(
             QuoteModel(
                 quote = "It’s not a bug. It’s an undocumented feature!",
@@ -48,6 +49,6 @@ class QuoteProvider {
                 author = "Anonymous"
             ),
             QuoteModel(quote = "¿A qué esperas?, contrátame.", author = "Marc Sogas 😊")
-        )
+        )*/
     }
 }

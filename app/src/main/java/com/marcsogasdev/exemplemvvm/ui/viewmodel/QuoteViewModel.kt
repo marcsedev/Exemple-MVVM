@@ -2,8 +2,8 @@ package com.marcsogasdev.exemplemvvm.ui.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.marcsogasdev.exemplemvvm.model.QuoteModel
-import com.marcsogasdev.exemplemvvm.model.QuoteProvider
+import com.marcsogasdev.exemplemvvm.data.model.QuoteModel
+import com.marcsogasdev.exemplemvvm.data.model.QuoteProvider
 
 
 class QuoteViewModel : ViewModel(){
